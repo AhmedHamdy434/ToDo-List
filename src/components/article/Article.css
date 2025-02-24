@@ -1,5 +1,5 @@
 article {
-  background-color: rgb(155, 155, 180);
+  background: linear-gradient(#00b4db, #0083b0);
   min-height: calc(100vh - 70px);
 }
 article .container {
@@ -43,7 +43,7 @@ article li .task {
   overflow-wrap: break-word;
   position: relative;
   user-select: none;
-  background-color: rgb(247, 93, 93);
+  background-color: #eee;
   padding: 2px 10px 2px 40px;
 
   &::before {
@@ -53,7 +53,7 @@ article li .task {
     top: 0;
   }
   &.done {
-    background-color: rgb(152, 119, 184);
+    background-color: #bbb;
     text-decoration: line-through;
     padding: 2px 100px 2px 40px;
 
@@ -70,8 +70,6 @@ article li .task {
 
 article li button {
   font-size: 12px;
-  background-color: rgb(247, 93, 93);
-  color: black;
   align-self: center;
 }
 

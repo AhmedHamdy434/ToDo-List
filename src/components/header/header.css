@@ -1,5 +1,5 @@
 .header {
-  background-color: cyan;
+  background: linear-gradient(180deg, #2c5364, #203a43, #0f2027);
 }
 .header .container {
   display: flex;
@@ -9,5 +9,5 @@
 }
 h2 {
   margin: 0;
-  color: #555454;
+  color: #eee;
 }
